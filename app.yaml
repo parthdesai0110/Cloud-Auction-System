@@ -1,0 +1,48 @@
+application: test-data-temp-003
+version: 1
+runtime: php55
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /css
+  static_dir: css
+
+- url: /images
+  static_dir: images
+
+- url: /
+  script: main.php
+
+- url: /main.php
+  script: main.php
+
+- url: /register.php
+  script: register.php
+
+- url: /login.php
+  script: login.php
+
+- url: /Home.php
+  script: Home.php
+
+- url: /database.php
+  script: database.php
+
+- url: /account_details.php
+  script: account_details.php
+
+- url: /update_details.php
+  script: update_details.php
+
+- url: /upload_product.php
+  script: upload_product.php
+
+- url: /product_display.php
+  script: product_display.php
+
+- url: /product_bid.php
+  script: product_bid.php
+
+- url: /logout.php
+  script: logout.php
